@@ -24,7 +24,7 @@ function showPostUI(){
                 postString += `
                     <div class="col-lg-4 col-md-6">  
                         <div class="card mb-5">
-                            <img src="images/chess.jpg" class="card-img-top" alt="...">
+                            <img src="./images/chess.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                <h4>${postArray[i].id}</h4>
                                <h5 class="post-title">${postArray[i].title}</h5>
@@ -69,7 +69,7 @@ function createOnePost(e) {
                 postString += `
                     <div class="col-lg-4 col-md-6">  
                         <div class="card mb-5">
-                            <img src="images/chess.jpg" class="card-img-top" alt="...">
+                            <img src="./images/chess.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                <h4>${postArray[i].id}</h4>
                                <h5 class="post-title">${postArray[i].title}</h5>
