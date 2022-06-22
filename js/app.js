@@ -69,7 +69,7 @@ function createOnePost(e) {
                 postString += `
                     <div class="col-lg-4 col-md-6">  
                         <div class="card mb-3">
-                            <img src="./images/Help.jpg" class="card-img-top" alt="...">
+                            <img src="./images/chess.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                <h4>${postArray[i].id}</h4>
                                <h6 class="post-title">${postArray[i].title}</h6>
