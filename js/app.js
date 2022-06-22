@@ -23,11 +23,11 @@ function showPostUI(){
             for (i=0; i<postArray.length; i++){
                 postString += `
                     <div class="col-lg-4 col-md-6">  
-                        <div class="card mb-5">
+                        <div class="card mb-3">
                             <img src="./images/chess.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                <h4>${postArray[i].id}</h4>
-                               <h5 class="post-title">${postArray[i].title}</h5>
+                               <h6 class="post-title">${postArray[i].title}</h6>
                                 <p class="post-body">${postArray[i].body}</p>
                                 <div class="d-flex justify-content-between">
                                     <button class="btn btn-primary" onclick="updateSinglePost(${postArray[i].id})">Update</button>
@@ -68,11 +68,11 @@ function createOnePost(e) {
             for (i=0; i<postArray.length; i++){
                 postString += `
                     <div class="col-lg-4 col-md-6">  
-                        <div class="card mb-5">
-                            <img src="./images/chess.jpg" class="card-img-top" alt="...">
+                        <div class="card mb-3">
+                            <img src="./images/Help.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                <h4>${postArray[i].id}</h4>
-                               <h5 class="post-title">${postArray[i].title}</h5>
+                               <h6 class="post-title">${postArray[i].title}</h6>
                                 <p class="post-body">${postArray[i].body}</p>
                                 <div class="d-flex justify-content-between">
                                     <button class="btn btn-primary" onclick="updateSinglePost(${postArray[i].id})">Update</button>
